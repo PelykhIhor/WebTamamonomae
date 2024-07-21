@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import "../app/globals.css";
 
 export default function Layout({ children }) {
   useEffect(() => {
