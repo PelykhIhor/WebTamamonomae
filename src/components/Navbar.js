@@ -12,7 +12,7 @@ const navItems = [
 ];
 
 const logo = {
-    href: "https://flowbite.com/docs/images/logo.svg",
+    href: "/",
     title: "Tamamonomae",
 };
 
