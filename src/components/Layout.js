@@ -3,15 +3,6 @@ import Footer from './Footer';
 import "../app/globals.css";
 
 export default function Layout({ children }) {
-
-    window.addEventListener("blur", () => {
-        document.title = "ШВИДКО ПОВЕРНИСЬ!!!";
-    });
-    window.addEventListener("focus", () => {
-        document.title = "Tamamonomae";
-    });
-
-    
     return (
         <main>
             <Navbar />
