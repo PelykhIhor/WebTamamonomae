@@ -11,7 +11,7 @@ export default function Layout({ children }) {
     };
 
     const handleFocus = () => {
-      document.title = "Your Original Title"; // Replace with your original title
+      document.title = "Tamamonomae"; // Replace with your original title
     };
 
     window.addEventListener("blur", handleBlur);
