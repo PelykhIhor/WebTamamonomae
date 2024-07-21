@@ -12,9 +12,11 @@ const navItems = [
 ];
 
 const logo = {
-    href: "/",
+    href: "https://flowbite.com/docs/images/logo.svg",
+    href2: "/",
     title: "Tamamonomae",
 };
+
 
 export default function Navbar() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,7 +29,7 @@ export default function Navbar() {
         <>
             <nav className="bg-black border-gray-200 dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <a href={logo.href} className="flex items-center">
+                    <a href={logo.href2} className="flex items-center">
                         <img src={logo.href} className="h-8 mr-3" alt="Flowbite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">{logo.title}</span>
                     </a>
