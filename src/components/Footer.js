@@ -17,7 +17,7 @@ const logo = {
 
 export default function Footer() {
     return (
-        <footer className="bg-black dark:bg-gray-900">
+        <footer className="bg-white dark:bg-gray-900">
             <div className="container flex flex-col items-center justify-between px-6 py-8 mx-auto lg:flex-row">
                 <a href={logo.href} className="flex items-center">
                     <img className="w-auto h-7" src={logo.href} alt={logo.title} />
